@@ -1,0 +1,217 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Boadilla}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{biblatex}
+
+    \title{Elements of Microeconomics}
+    \author{Hank Behaeghel}
+    \institute{Johns Hopkins University}
+    \date{Chapter 5}
+
+\addbibresource{microslides.bib}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Notes on Homework 1}
+
+    \begin{itemize}
+        \item You need to \textbf{explain} your answers. Stating the principle your are asked to use is not an explanation.
+        \item Please submit correctly, you will lose points in the future for incorrect submissions.
+    \end{itemize}
+    
+\end{frame}
+
+
+\begin{frame}{Elasticity}
+    \begin{itemize}
+        \item Elasticity is an important concept when talking about consumer choice and policy decisions.
+        \item Computationally it is not very difficult so focus on the intuition.
+        \item There are many elasticities, the primary focus of this course will be on \textbf{price elasticity of demand} and the \textbf{price elasticity of supply}.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Price Elasticity of Demand}
+    \begin{itemize}
+        \item<1-> \textbf{Price Elasticity of Demand (PED)}:\onslide <2-> a measure of how much the quantity demanded of a good responds to a change in the price of
+        that good, computed as the percentage change in quantity demanded
+        divided by the percentage change in price.
+        \vspace{5mm}
+        \item Notice here that we are dealing with percent changes. The implications of this will be revealed in the calculation methods.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Determinants of PED}
+    \begin{enumerate}
+        \item<1-> Availability of close subsitutes
+        \item <2-> Necessities vs. Luxuries
+        \item <3-> Definition of the market
+            \begin{itemize}
+            \item Remember this from last chapter.
+        \end{itemize}
+        \item<4-> Time horizon
+            \begin{itemize}
+                \item Remember our principle that rational people think on the margin as well as time horizons. Both of these affect your demand for goods at a given time. This will be relevant in certain policy discussions as you will see.
+            \end{itemize}
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{Computation of PED}
+    \begin{itemize}
+        \item There are a few methods that one can use to calculate PED. Use whichever one you like and feel most comfortable with.
+        \vspace{5mm}
+        \begin{block}{PED Intuition}
+            Remember that fundementally:
+            \[
+             PED = \frac{\% \Delta Q_d}{\% \Delta P}
+            \]
+            Which is indicating a consumer's sensitivity to price changes.
+        \end{block}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Methods Of Computation: Midpoint}
+    \begin{itemize}
+    \item\textbf{midpoint method}: This method avoids issues of picking the wrong "direction" when calculating PED. However, there are more opportunities to make arithmetic mistakes.
+        \begin{block}{Midpoint Calculation}
+        \begin{center}
+            $
+            PED = \dfrac{~~~\dfrac{(Q_2 - Q_1)}{\dfrac{(Q_2 + Q_1)}{2}}~~~}{\dfrac{(P_2 - P_1)}{\dfrac{(P_2 + P_1)}{2}}}
+            $
+        \end{center}
+       \end{block}
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}{Methods of Computation: Point Elasticity Method}
+    \begin{itemize}
+        \item This method is sometimes refered to as the \textit{point-slope formula}. Regardless of name it offers another method to compute PED.
+        \vspace{5mm}
+        \item This method some find eaiser than the midpoint and others find the midpoint to be eaiser. At the end of the day pick whichever one makes the most sense to you.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Constructing the Point Method}
+    Remember the intution behind PED.
+    \vspace{5mm}
+    \begin{enumerate}
+        \item $ PED = \frac{\% \Delta Q_d}{\% \Delta P} $
+        \vspace{5mm}
+        \item $ PED =  \dfrac{~\frac{\Delta Q_d}{Q_d}~}{\frac{\Delta P}{P}}$
+        \vspace{5mm}
+        \item $ PED =  \dfrac{\Delta Q_d}{\Delta P} * \dfrac{P}{Q_d}$
+        \vspace{5mm}
+        \item PED = $ b ~ * \dfrac{P}{Q_d} $
+    \end{enumerate}
+    \textit{Note: b is the slope of the demand curve when in the form $Q_d = a - bP $. If you are given the inverse demand curve (i.e. in y = mx + b) the b in point slope is $ \frac{1}{m}$}.
+\end{frame}
+
+\begin{frame}{Various Other Demand Elasticites}
+    \begin{enumerate}
+        \item<1-> \textbf{Income Ealsticity of Demand}: a measure of how much the quantity demanded
+        of a good responds to a change in consumers’ income. The sign matters, why?
+        \onslide<2->\begin{block}{Income Elasticity of Demand}
+        \begin{center}
+            $ IED = \dfrac{\%\Delta Q_d}{\% \Delta Income } $
+        \end{center}
+        \end{block}
+    
+        \item<3->\textbf{Cross Price Elasticity of Demand}: a measure of how much the quantity demanded of one good responds to
+        a change in the price of another good. The sign of CPED matters, why?
+        \onslide<4->\begin{block}{Cross Price Elasticity of Demand}
+            \begin{center}
+                $ CPED = \dfrac{\% \Delta Q_{d~good1}}{\% \Delta P_{good2}}  $
+            \end{center}    
+        \end{block}
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{Signs of Demand Elasticites}
+    \begin{center}
+        \begin{tabular}[c]{|c|c|c|}
+            \hline
+            Elasticity & Positve & Negative \\
+            \hline
+            CPED & subsitutes & complements \\
+            \hline
+            IED &  normal & inferior \\
+            \hline
+
+       \end{tabular}
+    \end{center}
+\end{frame}
+
+\begin{frame}{Price Elasticity of Supply}
+    \begin{itemize}
+        \item \textbf{Price Elasticity of Supply}: a measure of how much the quantity supplied
+        of a good responds to a change in the price of that good.
+        \vspace{5mm}
+        \begin{block}{Cross Price Elasticity of Demand}
+            \begin{center}
+                $ PES = \dfrac{\% \Delta Q_s}{\% \Delta P}  $
+            \end{center}    
+        \end{block}
+        \item Intuitively this is a measure of how sensitive suppliers are to changes in price.
+        \item Computations are similar to that of PED. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Graphically: What Does All of This Mean?}
+    
+    \begin{itemize}
+        \item This is where some of the intuition comes into play.
+        \vspace{5mm}
+        \item What do the following graphs look like?
+        \vspace{2mm}
+            \begin{enumerate}
+                \item $PED = 0$ 
+                \item $PED = \infty$
+                \item $PED = 1$ (unit elastic)
+                \item $PED  >  1$
+            \end{enumerate}
+        \vspace{5mm}
+        \item More importantly what do they \textit{mean}?
+        \vspace{5mm}
+        \item If demand is linear, what is happening with consumer PED along the curve? Why?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Effect on Revenue}
+    \begin{itemize}
+        \item Some of you wrote about loss of profits/revenue on Assignment 1. Without elasiticies it is hard to predict the changes in such things.
+        \item However, now you'll be able to judge these scenarios with what you have learned in Chapter 5.
+    \end{itemize}  
+   
+    \begin{center}
+        \includegraphics[scale = 0.4]{/Users/hank/Desktop/ERSS.png}
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \begin{block}{Question 1}
+        The price of apples goes from \$1 per lb to \$1.50 per lb. As a result $Q_d$ of oranges rises from 8,000 a week to 9,500.
+        \begin{itemize}
+            \item What is the cross-price elasticity of demand?
+            \item What does that tell us about apples and oranges?
+        \end{itemize}
+    \end{block}
+
+    \begin{block}{Question 2}
+        A price change causes the quantity demanded of a good to decrease by 20\%, while the total revenue of that good increases by 10\%. The demand curve is elastic in this region. TRUE or FALSE, why?  
+    \end{block}
+
+    \begin{block}{Question 3}
+        Consider the market for James Wilson (no relation to House) globes. The demand for the globes is described by the equation $ Q_d = 20-5P$. 
+        \begin{itemize}
+            \item Find PED when the P = 2.5 using the midpoint method.
+            \item Find PED when P = 2 using any method.
+        \end{itemize}
+    \end{block}
+\end{frame}
+
+
+\end{document}
