@@ -1,0 +1,143 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Boadilla}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{biblatex}
+
+    \title{Elements of Microeconomics}
+    \author{Hank Behaeghel}
+    \institute{Johns Hopkins University}
+    \date{Chapter 4}
+
+\addbibresource{microslides.bib}
+
+\begin{document}
+
+\maketitle
+
+\begin{frame}{Few Reminders}
+    \begin{itemize}
+        \item Homework 1 is due tomorrow at \textbf{midnight}. We will have time to answer any last miniute questions.
+        \vspace{5mm}
+        \item OH are usually held in Wyman 535 unless othewise noted via Canvas.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Supply and Demand}
+    \begin{itemize}
+        \item Key Concepts:
+        \vspace{5mm}
+        \begin{enumerate}
+            \item<1-> \textbf{market}: \onslide<2->{a group of buyers and sellers of a particular good or service.}
+            \vspace{5mm}
+            \item<3-> \textbf{competitive market}: \onslide<4>{a market in which there are many buyers and many sellers so that each has a negligible impact on the market price.}
+        \end{enumerate}
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}{A Few Important Notes about Markets}
+    \begin{enumerate}
+        \item A market pretains to a particular good or service. This has important implications for future discussion of elasticity (Chapter 5).
+        \vspace{5mm}
+        \begin{itemize}
+            \item This implies that you can define a market as broadly or narrowly as you would like.
+        \end{itemize}
+        \vspace{5mm}
+        \item There are many different types of markets but, until later in the course assume discussions of markets are discussing \textbf{competitive markets}.
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{Onto Demand}
+    \begin{itemize}
+        \item This is the side of the market we most often find ourselves on as consumers.
+        \vspace{5mm}
+        \item Demand is always downward sloping, so if your mind goes blank trying to draw supply and demand, demand starts with D and so does downward!
+    \end{itemize}
+    \vspace{5mm}
+    \begin{block}{\textbf{Law of Demand}}
+        All else being equal (ceritus paribus), the \textit{quantity demanded} of a good falls when the price of a good rises.
+    \end{block}
+\end{frame}
+
+\begin{frame}{Shifters of Demand}
+    \begin{enumerate}
+        \item<1-> Income
+        \item<2-> Price of Related Goods
+        \item<3-> Tastes
+        \item<4-> Expectations
+        \item<5-> Number of Buyers
+    \end{enumerate}
+    \vspace{5mm}
+    \begin{itemize}
+        \item<6-> All of these can shift demand in either direction (up or down). TRIBES is the way Professor Husain presents it to make it eaiser to remember, do which ever works for you.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Into Supply}
+    \begin{itemize}
+        \item Think of this side as the stores you go to, you yourself may be a supplier of a good but, in this class think of it as a merchant or something of the sort.
+        \vspace{5mm}
+        \item Unlike demand, supply does not have an easy trick to remember it's direction but, if you remember demand is downward sloping demand you can figure out supply goes the opposite way.
+    \end{itemize}
+    \vspace{5mm}
+    \begin{block}{\textbf{Law of Supply}}
+        The claim that, other things being equal (ceritus paribus), the quantity supplied of a good rises when the price of the good rises.
+    \end{block}
+\end{frame}
+
+\begin{frame}{Shifters of Supply}
+    \begin{enumerate}
+        \item<1-> Input prices
+        \item<2-> Technology
+        \item<3-> Expectations
+        \item<4-> Number of sellers
+    \end{enumerate}
+    \vspace{5mm}
+    \begin{itemize}
+        \item<5-> You can remember with the PESTS acronym.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{All Togehter Now!}
+    \begin{itemize}
+        \item When we combine supply and demand there is a point of intersection. This point is known as \textbf{equilibrium}.
+        \item At equilibrium $Q_s$ and $Q_d$ are equal to each other; one could even say they are in a balance.
+        \item Important mathematical note here, demnad is not in $y = mx + b$ in order to achieve one must use inverse demand.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Sometimes Things get Out of Balance}
+    \begin{enumerate}
+        \item \textbf{Surplus}: this is when we have excess supply, i.e. $Q_s > Q_d$
+        \item \textbf{Shortage}: this is when there is excess demand, i.e. $Q_d > Q_s$
+    \end{enumerate}
+    \begin{itemize}
+    \vspace{5mm}
+        \item There are many reasons why these situations arise: short term shocks to one or the other, price controls, etc.. We will cover these a little later in this course.
+    \end{itemize}
+    \vspace{5mm}
+    \begin{block}{Law of Supply and Demand}
+    The claim that the price of any good adjusts to bring the quantity supplied and the quantity demanded for that good into balance.
+    \end{block}
+\end{frame}
+
+
+\begin{frame}{Chocolate Makes it All Make Sense}
+    \begin{block}{Question}<1>
+        Consider a market for a moment . The market we will consider is the market of the \textbf{greatest invention of all time}: Reese's Cups
+        \vspace{2mm}
+        \\Suppose:
+        $Q_d = 20 - 2P$ and $Q_s =  8P$ where quantity is in millions of cups and P in dollars.
+        \begin{enumerate}
+            \item Find $P_{eq}$ and $Q_{eq}$
+            \item At what price will there be a surplus of 5 million Reese's Cups?  At what price will there be a shortage of 10 million Reese's Cups?
+            \item What happens to the market when the world's cacao bean producers stop selling to Hershey?
+            \item What happens to the market when Europeans decided that "fine, maybe they aren't so bad"?
+        \end{enumerate}
+    \end{block}
+    
+\end{frame}
+    
+\end{document}
